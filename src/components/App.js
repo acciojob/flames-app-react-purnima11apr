@@ -49,6 +49,7 @@ function App() {
       <form>
         <input
           type="text"
+          name="name1"
           data-testid="input1"
           placeholder="Enter first name"
           value={input1}
@@ -59,6 +60,7 @@ function App() {
         <input
           type="text"
           data-testid="input2"
+          name="name2"
           placeholder="Enter second name"
           value={input2}
           onChange={(e) => {
